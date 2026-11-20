@@ -1,6 +1,6 @@
 {
   "name": "preferences",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "title": "Preferences",
   "keepsData": true,
   "description": "Language, sound, camera and microphone choices, kept per device.",
@@ -191,13 +191,17 @@
     {
       "reference": {
         "name": "ourapps-ae/preferences-class",
-        "version": "1.0.0",
-        "digest": "cc04ad3a8029aec51f37c49c58f2db9830c828f32095f8f16a99523a21cb5512"
+        "version": "1.1.0",
+        "digest": "8c1e97e5265742aa36a660b6905d3272e91494de06c0c85bd48d5a28adb0c75c"
       },
       "descriptor": {
-        "format": 1,
+        "format": 2,
         "name": "ourapps-ae/preferences-class",
-        "version": "1.0.0",
+        "version": "1.1.0",
+        "title": "Preferences",
+        "summary": "Per-device choices such as sound and language, kept and observed",
+        "category": "people-and-accounts/preferences",
+        "presentation": "none",
         "provides": [
           {
             "type": "ae/preferences",
@@ -290,8 +294,8 @@
   "implements": [
     {
       "name": "ourapps-ae/preferences-class",
-      "version": "1.0.0",
-      "digest": "cc04ad3a8029aec51f37c49c58f2db9830c828f32095f8f16a99523a21cb5512"
+      "version": "1.1.0",
+      "digest": "8c1e97e5265742aa36a660b6905d3272e91494de06c0c85bd48d5a28adb0c75c"
     }
   ],
   "upstream": [],
@@ -302,7 +306,7 @@
       "ios": ">=17.0.0",
       "macos": ">=14.0.0",
       "tvos": ">=17.0.0",
-      "kotlin": "=2.3.20",
+      "kotlin": "=2.4.21",
       "java": ">=17.0.0 <27.0.0",
       "android": ">=8.0.0"
     },
@@ -549,5 +553,11 @@
         "manual": "Without the package manager, install Node 26 from nodejs.org (the installer, or the zip or tar archive with its folder put first on PATH); on Linux also from the NodeSource repository."
       }
     ]
-  }
+  },
+  "release": {
+    "channel": "features",
+    "fixes": []
+  },
+  "images": [],
+  "vulnerabilityWaivers": []
 }
