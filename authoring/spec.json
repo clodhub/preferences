@@ -1,6 +1,6 @@
 {
   "name": "preferences",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "title": "Preferences",
   "keepsData": true,
   "description": "Language, sound, camera and microphone choices, kept per device.",
@@ -51,11 +51,11 @@
     "web"
   ],
   "tools": {
-    "node": "26.5.0",
-    "python3": "3.12.8",
-    "swiftc": "6.4.2",
-    "kotlinc": "2.2.0",
-    "java": "26.0.1"
+    "node": "26.5",
+    "python3": "3.12",
+    "swiftc": "6.4",
+    "kotlinc": "2.2",
+    "java": "26.0"
   },
   "suites": [
     {
@@ -66,7 +66,7 @@
         "tests/web.test.ts"
       ],
       "tools": {
-        "node": "26.5.0"
+        "node": "26.5"
       },
       "scope": "required-local",
       "fixtures": [
@@ -83,8 +83,8 @@
         "apple"
       ],
       "tools": {
-        "python3": "3.12.8",
-        "swiftc": "6.4.2"
+        "python3": "3.12",
+        "swiftc": "6.4"
       },
       "fixtures": [
         "tests/apple/main.swift"
@@ -99,9 +99,9 @@
         "android"
       ],
       "tools": {
-        "python3": "3.12.8",
-        "kotlinc": "2.2.0",
-        "java": "26.0.1"
+        "java": "26.0",
+        "kotlinc": "2.2",
+        "python3": "3.12"
       },
       "fixtures": [
         "tests/android/Main.kt"
@@ -190,13 +190,13 @@
   "classes": [
     {
       "reference": {
-        "name": "ourapps-ae/preferences-class",
+        "name": "clodhub/preferences-class",
         "version": "1.1.0",
-        "digest": "8c1e97e5265742aa36a660b6905d3272e91494de06c0c85bd48d5a28adb0c75c"
+        "digest": "0fbc246357cc45f3ef5bb03d48668fdf44a269fde29510972e52a7a567a7d16f"
       },
       "descriptor": {
         "format": 2,
-        "name": "ourapps-ae/preferences-class",
+        "name": "clodhub/preferences-class",
         "version": "1.1.0",
         "title": "Preferences",
         "summary": "Per-device choices such as sound and language, kept and observed",
@@ -257,7 +257,7 @@
           },
           {
             "path": "classes/preferences-class/preferences.json",
-            "digest": "8e452eb67e1848577fd5179ed3d033612d0874f6515b0869b185eaec37f92923"
+            "digest": "eec4faf94dac5adae6f609a57359ed15a701223ade0616f61947261f65cb930f"
           },
           {
             "path": "classes/preferences-class/runtime.mjs",
@@ -293,9 +293,9 @@
   ],
   "implements": [
     {
-      "name": "ourapps-ae/preferences-class",
+      "name": "clodhub/preferences-class",
       "version": "1.1.0",
-      "digest": "8c1e97e5265742aa36a660b6905d3272e91494de06c0c85bd48d5a28adb0c75c"
+      "digest": "0fbc246357cc45f3ef5bb03d48668fdf44a269fde29510972e52a7a567a7d16f"
     }
   ],
   "upstream": [],
@@ -322,10 +322,10 @@
     "owners": [
       "Level N Ltd"
     ],
-    "contact": "https://github.com/ourapps-ae/preferences/issues",
-    "repository": "https://github.com/ourapps-ae/preferences",
+    "contact": "https://github.com/clodhub/preferences/issues",
+    "repository": "https://github.com/clodhub/preferences",
     "updates": {
-      "source": "https://github.com/ourapps-ae/preferences/releases",
+      "source": "https://github.com/clodhub/preferences/releases",
       "strategy": "manual"
     }
   },

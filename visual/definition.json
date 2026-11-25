@@ -1,10 +1,10 @@
 {
-  "id": "ourapps-ae.preferences",
+  "id": "clodhub.preferences",
   "name": "Preferences",
   "kind": "component",
   "status": "example",
-  "package": "ourapps-ae/preferences",
-  "version": "0.7.0",
+  "package": "clodhub/preferences",
+  "version": "0.8.0",
   "ports": [
     {
       "id": "preferences",
