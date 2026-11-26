@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "ae/preference-record",
+  "title": "com.clodhub/preference-record",
   "x-version": "1.0.0",
   "description": "One chosen preference on one device; defaults are not recorded.",
   "oneOf": [

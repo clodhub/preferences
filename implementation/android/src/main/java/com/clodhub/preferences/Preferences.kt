@@ -1,4 +1,4 @@
-package ae.preferences
+package com.clodhub.preferences
 
 // SharedPreferences in the application: the four methods below map straight onto it.
 interface PreferenceStorage {

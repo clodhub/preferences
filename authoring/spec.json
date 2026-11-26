@@ -1,6 +1,7 @@
 {
   "name": "preferences",
-  "version": "0.8.0",
+  "version": "0.9.0",
+  "sourceRevision": "19905b75dbea89fbfd424d67fe26c81aaed0e018",
   "title": "Preferences",
   "keepsData": true,
   "description": "Language, sound, camera and microphone choices, kept per device.",
@@ -13,7 +14,7 @@
   "provides": [
     {
       "id": "preferences",
-      "type": "ae/preferences",
+      "type": "com.clodhub/preferences",
       "version": "1.0.0",
       "path": "interfaces/preferences.json"
     }
@@ -130,7 +131,7 @@
       {
         "id": "device-preferences",
         "schema": {
-          "name": "ae/preference-record",
+          "name": "com.clodhub/preference-record",
           "version": "1.0.0",
           "file": "interfaces/preference-record.schema.json"
         }
@@ -190,13 +191,13 @@
   "classes": [
     {
       "reference": {
-        "name": "clodhub/preferences-class",
+        "name": "pkg:clod/com.clodhub/preferences-class",
         "version": "1.1.0",
-        "digest": "0fbc246357cc45f3ef5bb03d48668fdf44a269fde29510972e52a7a567a7d16f"
+        "digest": "e69d13f4df14da9a6350429fe9ddfe6dbaf6f24d3c1991c46f247ae109c22aa1"
       },
       "descriptor": {
-        "format": 2,
-        "name": "clodhub/preferences-class",
+        "format": 3,
+        "name": "pkg:clod/com.clodhub/preferences-class",
         "version": "1.1.0",
         "title": "Preferences",
         "summary": "Per-device choices such as sound and language, kept and observed",
@@ -204,7 +205,7 @@
         "presentation": "none",
         "provides": [
           {
-            "type": "ae/preferences",
+            "type": "com.clodhub/preferences",
             "version": "1.0.0",
             "path": "classes/preferences-class/preferences.json",
             "modules": {
@@ -257,11 +258,11 @@
           },
           {
             "path": "classes/preferences-class/preferences.json",
-            "digest": "eec4faf94dac5adae6f609a57359ed15a701223ade0616f61947261f65cb930f"
+            "digest": "dc75d5d442654fca97c12a9ae3ac4c2f5beae8cfb2f877d87ed51ecc65245acf"
           },
           {
             "path": "classes/preferences-class/runtime.mjs",
-            "digest": "7440f3891614c423f74668cb5a2445fea58bbfa4d7c740c8e8a855d1d9300d43"
+            "digest": "1d85f0dae92d5c6c859cd48a4211a933718ae3e168554a2b00806183c4b661f0"
           }
         ],
         "verification": [
@@ -293,9 +294,9 @@
   ],
   "implements": [
     {
-      "name": "clodhub/preferences-class",
+      "name": "pkg:clod/com.clodhub/preferences-class",
       "version": "1.1.0",
-      "digest": "0fbc246357cc45f3ef5bb03d48668fdf44a269fde29510972e52a7a567a7d16f"
+      "digest": "e69d13f4df14da9a6350429fe9ddfe6dbaf6f24d3c1991c46f247ae109c22aa1"
     }
   ],
   "upstream": [],

@@ -8,14 +8,14 @@ Facilities: `preferences` (Per-device language, sound, camera and microphone cho
 ## User inputs
 Three settings give the defaults for a device that has never chosen: `defaultSound` (default true), `defaultMicrophoneOn` (true) and `defaultCameraOn` (true). Language and device choices have no default beyond "follow the device" and "automatic".
 
-- `defaultSound` (boolean; optional; default `True`)
-- `defaultMicrophoneOn` (boolean; optional; default `True`)
-- `defaultCameraOn` (boolean; optional; default `True`)
+- `defaultSound` (boolean; optional; default `true`)
+- `defaultMicrophoneOn` (boolean; optional; default `true`)
+- `defaultCameraOn` (boolean; optional; default `true`)
 
 ## Artefacts and dependencies
 `component.json` maps every `implementation/` source into `components/preferences/`:
 
-- `implementation/android/src/main/java/ae/preferences/Preferences.kt` -> `components/preferences/android/src/main/java/ae/preferences/Preferences.kt`
+- `implementation/android/src/main/java/com/clodhub/preferences/Preferences.kt` -> `components/preferences/android/src/main/java/com/clodhub/preferences/Preferences.kt`
 - `implementation/apple/Sources/Preferences.swift` -> `components/preferences/apple/Sources/Preferences.swift`
 - `implementation/web/preferences.ts` -> `components/preferences/web/preferences.ts`
 
@@ -23,8 +23,8 @@ Dependencies: none.
 `tools.lock.json` pins verification tools: node 26.5, python3 3.12, swiftc 6.4, kotlinc 2.2, java 26.0. Licence wording remains deferred.
 
 ## Provided interfaces
-- `interfaces/preferences.json` defines `preferences` (ae/preferences) version 1.0.0 as an OpenRPC 1.3.2 document: the TypeScript functions and `PreferenceStore.*` methods (tagged `typescript`) and the native `DevicePreferences` class (tagged `swift` and `kotlin`), with the preferences, defaults, keys and records as JSON Schema 2020-12.
-- `interfaces/preference-record.schema.json` is the JSON Schema 2020-12 document of one exported record (ae/preference-record 1.0.0).
+- `interfaces/preferences.json` defines `preferences` (com.clodhub/preferences) version 1.0.0 as an OpenRPC 1.3.2 document: the TypeScript functions and `PreferenceStore.*` methods (tagged `typescript`) and the native `DevicePreferences` class (tagged `swift` and `kotlin`), with the preferences, defaults, keys and records as JSON Schema 2020-12.
+- `interfaces/preference-record.schema.json` is the JSON Schema 2020-12 document of one exported record (com.clodhub/preference-record 1.0.0).
 
 ## Required interfaces
 None.

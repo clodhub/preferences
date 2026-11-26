@@ -1,7 +1,7 @@
-import ae.preferences.DevicePreferences
-import ae.preferences.PreferenceDefaults
-import ae.preferences.PreferenceStorage
-import ae.preferences.availableDeviceId
+import com.clodhub.preferences.DevicePreferences
+import com.clodhub.preferences.PreferenceDefaults
+import com.clodhub.preferences.PreferenceStorage
+import com.clodhub.preferences.availableDeviceId
 
 class MemoryStorage : PreferenceStorage {
     val data = mutableMapOf<String, Any>()

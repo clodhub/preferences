@@ -4,7 +4,7 @@
     {
       "id": "device-preferences",
       "schema": {
-        "name": "ae/preference-record",
+        "name": "com.clodhub/preference-record",
         "version": "1.0.0",
         "file": "interfaces/preference-record.schema.json"
       }
